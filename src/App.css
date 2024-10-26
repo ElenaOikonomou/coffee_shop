@@ -18,6 +18,10 @@
 .navbar {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  
   
 }
 
@@ -33,6 +37,9 @@
 
 
 .name--div{
-  display:flex;
-  flex-direction: column;
+  margin: 0 auto;
+}
+
+.menu--div{
+  margin-left: 15px;
 }
