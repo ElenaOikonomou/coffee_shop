@@ -1,7 +1,8 @@
 
 import './App.css';
 import React, {useState, useEffect} from 'react';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Navbar.js';
+import Menu from './Components/Menu.js';
 
 export default function App() {
 
@@ -28,17 +29,17 @@ useEffect(() => {
     
   }, []);
 
-
+  
 
 
 
   return (
-    <div className="App">
+    <div className={isDayTime? 'App--day' :'App--night'}>
     <Navbar/>
       <header className="App-header">
         
         <p>
-          Welcome to the best coffee place!
+          Current time: {isDayTime}
         </p>
         
       </header>
@@ -47,3 +48,6 @@ useEffect(() => {
 }
 
 ;
+
+
+//{`${isDayTime}?"App--day":"App--night"`}
