@@ -1,4 +1,4 @@
-.App--day {
+.App--night {
   text-align: center;
   background-image: url('./images/orange-fall-leaves.png');
   background-size: cover;
@@ -7,7 +7,7 @@
   min-height: 100vh;
 }
 
-.App--night{
+.App--day{
   text-align: center;
   background-image: url('./images/autumn-night-coffee-cup.png');
   background-size: cover;

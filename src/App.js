@@ -39,7 +39,7 @@ useEffect(() => {
       <header className="App-header">
         
         <p>
-          Current time: {isDayTime}
+          Current time: 
         </p>
         
       </header>
